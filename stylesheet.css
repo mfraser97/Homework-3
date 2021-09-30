@@ -1,0 +1,78 @@
+
+body {
+    background-color: lightblue;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    background-color: blue;
+    margin: 50px;
+    padding: 50px;
+    width: 40vh;
+    height: 35vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px grey;
+    border: 2px solid black;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.passwordBox {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+label {
+    margin-right: 30px;
+    line-height: 3rem;
+}
+
+#inclUpper {
+    cursor: pointer;
+}
+
+#inclNum {
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+#inclSymb {
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+#password {
+    height: 2rem;
+    width: 400px;
+    text-align: center;
+    border-radius: 25px;
+}
+::placeholder {
+    text-align: center;
+}
+
+button {
+    background-color: darkblue;
+    margin-left: 10vh;
+    border: 2px solid black ;
+    height: 45px;
+    width: 200px;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
